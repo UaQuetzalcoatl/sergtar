@@ -1,0 +1,32 @@
+{
+    "name": "spoonx/sxmail",
+    "description": "A simple mail module for Zend Framework 2.",
+    "license": "BSD-2-Clause",
+    "type": "library",
+    "keywords": [
+        "Sx",
+        "mail",
+        "zf2",
+        "zend framework 2"
+    ],
+    "homepage": "https://github.com/SpoonX/SxMail",
+    "authors": [
+        {
+            "name": "Wesley Overdijk",
+            "email": "r.w.overdijk@gmail.com",
+            "homepage": "http://blog.spoonx.nl/"
+        }
+    ],
+    "require": {
+        "php": ">=5.3.3",
+        "zendframework/zendframework": "2.*"
+    },
+    "replace": {
+        "rwoverdijk/sxmail": "*"
+    },
+    "autoload": {
+        "psr-0": {
+            "SxMail": "src/"
+        }
+    }
+}
